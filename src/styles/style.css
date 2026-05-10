@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 10, 2026, 10:37:48 AM
+    Author     : Hp
+*/
+.root {
+    -fx-background-color: #f7f9fc;
+}
+
+.label {
+    -fx-text-fill: #1f2937;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 6;
+}
+
+.text-field:focused {
+    -fx-border-color: #3b82f6;
+}
+
+.button {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.9;
+}
+
+#addButton {
+    -fx-background-color: #22c55e;
+}
+
+#addButton:hover {
+    -fx-background-color: #16a34a;
+}
+
+#updateButton {
+    -fx-background-color: #3b82f6;
+}
+
+#updateButton:hover {
+    -fx-background-color: #2563eb;
+}
+
+#deleteButton {
+    -fx-background-color: #ef4444;
+}
+
+#deleteButton:hover {
+    -fx-background-color: #dc2626;
+}
+
+#clearButton {
+    -fx-background-color: #6b7280;
+}
+
+#clearButton:hover {
+    -fx-background-color: #4b5563;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e5e7eb;
+    -fx-border-radius: 10;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
